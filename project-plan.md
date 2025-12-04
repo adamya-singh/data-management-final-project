@@ -26,6 +26,15 @@ course-project/
 - Create target variable `SEVERE`
 - Basic validation checks
 
+#### Coordinate Imputation (K-Means)
+
+- Separate rows with valid vs missing coordinates
+- For each borough with sufficient data:
+  - Fit K-means (k = num_rows / 1500) on valid coordinates
+  - Impute missing coords using borough centroid
+- Add `coords_imputed` flag column
+- Retain ~10.8% of rows that would otherwise lack spatial info
+
 ### Section 3: Store Cleaned Data in SQLite
 
 - Create SQLite database (`collisions.db`)
