@@ -1,0 +1,10 @@
+tqdm
+pandas
+scikit-learn
+numpy
+psycopg2
+seaborn
+numpy
+pathlib
+ipykernel
+python-dotenv

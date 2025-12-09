@@ -2,5 +2,4 @@
 *.py
 venv/
 .DS_Store
-requirements.txt
 .env
