@@ -1,5 +1,13 @@
+#file types
 *.csv
 *.py
+*.db
+
+#environment 
 venv/
 .DS_Store
 .env
+
+#generated models
+models/
+
