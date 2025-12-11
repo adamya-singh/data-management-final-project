@@ -1,11 +1,9 @@
-tqdm
 pandas
+numpy
 scikit-learn
-numpy
-psycopg2
-seaborn
-numpy
-pathlib
-ipykernel
-python-dotenv
 xgboost
+matplotlib
+seaborn
+python-dotenv
+ipykernel
+tqdm
